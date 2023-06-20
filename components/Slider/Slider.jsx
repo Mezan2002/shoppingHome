@@ -1,6 +1,6 @@
 const Slider = () => {
   return (
-    <div className="max-h-screen relative">
+    <div className="max-h-screen relative mt-[-170px]">
       <div className="carousel">
         <div id="item1" className="carousel-item">
           <img

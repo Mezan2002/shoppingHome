@@ -1,18 +1,24 @@
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100 text-black">
+      <div className="navbar bg-transparent z-40 text-black px-10">
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl">Shopping Home</a>
-          <div className="navbar-start hidden lg:flex">
+          <a className="z-40">
+            <img
+              src="https://i.ibb.co/PgWj2CD/Shopsmile-2.png"
+              alt=""
+              className="w-20"
+            />
+          </a>
+          <div className="navbar-start hidden lg:flex z-40">
             <ul className="menu menu-horizontal px-1">
               <li>
                 <a>Shop</a>
               </li>
-              <li tabIndex={0}>
+              <li tabIndex={0} className="mx-3">
                 <details>
                   <summary>Categories</summary>
-                  <ul className="p-2 z-40">
+                  <ul className="p-2 z-40 text-black">
                     <li>
                       <a>Men's</a>
                     </li>
@@ -37,7 +43,7 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <div className="flex-none">
+        <div className="flex-none z-40 text-black">
           <button className="btn btn-ghost btn-circle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
