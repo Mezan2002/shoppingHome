@@ -1,16 +1,18 @@
+import Link from "next/link";
+
 const Navbar = () => {
   return (
     <div>
       <div className="navbar bg-transparent z-40 text-black px-10">
         <div className="flex-1">
-          <a className="z-40">
+          <Link href={"/"} className="z-40">
             <img
               src="https://i.ibb.co/PgWj2CD/Shopsmile-2.png"
               alt=""
-              className="w-20"
+              className="w-24 mr-5"
             />
-          </a>
-          <div className="navbar-start hidden lg:flex z-40">
+          </Link>
+          <div className="navbar-start hidden lg:flex z-40 font-semibold">
             <ul className="menu menu-horizontal px-1">
               <li>
                 <a>Shop</a>
