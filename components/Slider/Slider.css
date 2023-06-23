@@ -19,3 +19,14 @@
 .img-gradient img {
   display: block;
 }
+/* .strokeText {
+  fill: none;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  stroke-opacity: 0.5;
+} */
+.strokeText {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.397);
+}
