@@ -1,6 +1,5 @@
 "use client";
 import { Carousel } from "@material-tailwind/react";
-import "./Slider.css";
 
 export default function Slider() {
   return (
